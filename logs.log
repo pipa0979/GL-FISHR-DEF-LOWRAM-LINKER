@@ -1,0 +1,36 @@
+ Program working directory was: /home/piyush/Documents/IBG-FISHR-GITHUB/LINK_GERMLINE_N_FISHR 
+Program version was: ./fishr_low_ram7.0 
+Program options:
+-bmatch file: GL_OUT.bmatch 
+-bmid file: GL_OUT.bmid 
+-bsid file: GL_OUT.bsid 
+-ped file: ./Beagle.Phased.Group2.1k.ped 
+-holdout ped file:  
+-holdoutmap file:  
+-output type: finalOutput 
+- missing SNP representation in pedfile:  
+-log file: logs 
+min snp length : 64 
+min cm length : 3 
+gap to consolidate : 100 
+moving averages window size : 50 
+discard ends to calculate pct err : 50  
+percentage error threshold: 0.9
+
+ User supplied ma-threshold is: 0.2
+ Moving Averages will be tested usign the empirical threshold: 0
+ 
+ No of segments deemed to be IBD for finding empirical error threshold 883 
+ No of segments deemed to be IBD for finding empirical error threshold in hold out are 0
+ 
+ corresponding empirical error threshold for 0.9 is: 0.015 
+
+ 
+ No of matches removed due to percentage error: 0 
+ No of matches removed due to length of trimming by moving averages: 7881 
+ No of matches removed due hold out ped file checking: 0 
+ No of matches removed due to initial length: 0
+ The program started at: Fri Aug 19 12:58:34 2016
+
+ The program ended at: Fri Aug 19 12:58:36 2016
+  Total time ( in seconds): 2
