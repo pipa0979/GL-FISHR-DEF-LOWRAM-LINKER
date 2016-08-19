@@ -10,11 +10,9 @@ using namespace std;
 int main(int argc, char * argv[])
 {	
 
-std::string GERMLINE="-germline9.1";
-std::string FISHR = "-ErrorFinder25.0";
 std::stringstream ss2("");
-std::string s1 = "-germline9.1";
-std::string s2 = "-ErrorFinder25.0";
+std::string s1 = "-germline";
+std::string s2 = "-fishr";
 std::string s1_data =" ";
 std::string s2_data =" ";
 bool glflag =  false;
@@ -24,7 +22,7 @@ bool fishrflag =  false;
 if (argc<3)
 	{
 		std::cout<<"Error: No input provided\n";
-		std::cout<<"The input should be of the form \n -germline9.1 <parameters> \nand \n -ErrorFinder25.0 <parameters> "<<std::endl;
+		std::cout<<"The input should be of the form \n -germline <parameters> \nand \n -ErrorFinder25.0 <parameters> "<<std::endl;
 		exit(0);
 	}
 if (argv[1] == s1)

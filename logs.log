@@ -1,4 +1,4 @@
- Program working directory was: /home/piyush/Documents/IBG-FISHR-GITHUB/LINK_GERMLINE_N_FISHR 
+ Program working directory was: /home/piyush/Documents/IBG-FISHR-GITHUB/LINK_GERMLINE_N_FISHR/TestingRepo 
 Program version was: ./fishr_low_ram7.0 
 Program options:
 -bmatch file: GL_OUT.bmatch 
@@ -30,7 +30,7 @@ percentage error threshold: 0.9
  No of matches removed due to length of trimming by moving averages: 7881 
  No of matches removed due hold out ped file checking: 0 
  No of matches removed due to initial length: 0
- The program started at: Fri Aug 19 12:58:34 2016
+ The program started at: Fri Aug 19 14:58:05 2016
 
- The program ended at: Fri Aug 19 12:58:36 2016
-  Total time ( in seconds): 2
+ The program ended at: Fri Aug 19 14:58:06 2016
+  Total time ( in seconds): 1

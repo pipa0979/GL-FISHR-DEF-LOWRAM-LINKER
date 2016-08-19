@@ -8,19 +8,19 @@
 		g++ -O2 -o GL-Fishr wrapper_fishr.cpp
 
 4. After following the above steps, Fishr is ready to be worked with.
-
+5. The binary files i.e. germline9.1  and ErrorFinder25.0 must be in the same folder as GL-Fishr for this wrapper program to work.
 
 sample input:
 
 This following calls GL + Fishr:
 
-./GL-Fishr -germline9.1 -mapfile ./Beagle.Phased.Group2.1k.map -pedfile ./Beagle.Phased.Group2.1k.ped -outfile GL_OUT -bin_out -bits 20 -err_hom 0 -err_het 0 -min_m 3 -homoz  -w_extend -h_extend -ErrorFinder25.0 -ped-file ./Beagle.Phased.Group2.1k.ped  -bmatch GL_OUT.bmatch -bsid GL_OUT.bsid -bmid GL_OUT.bmid  -reduced 64  3 -window 50 -gap 100 -output.type finalOutput -count.gap.errors TRUE  -emp-pie-threshold 0.015  -ma-threshold 0.2  -log.file logs |gzip > FISHR_OUT.gz
+./GL-Fishr -germline -mapfile ./Beagle.Phased.Group2.1k.map -pedfile ./Beagle.Phased.Group2.1k.ped -outfile GL_OUT -bin_out -bits 20 -err_hom 0 -err_het 0 -min_m 3 -homoz  -w_extend -h_extend -fishr -ped-file ./Beagle.Phased.Group2.1k.ped  -bmatch GL_OUT.bmatch -bsid GL_OUT.bsid -bmid GL_OUT.bmid  -reduced 64  3 -window 50 -gap 100 -output.type finalOutput -count.gap.errors TRUE  -emp-pie-threshold 0.015  -ma-threshold 0.2  -log.file logs |gzip > FISHR_OUT.gz
 
 
 
 This Foloowing calls GL + Fishr-Lowram  (notice the -low_ram flag):
 
 
-./GL-Fishr -germline9.1 -mapfile ./Beagle.Phased.Group2.1k.map -pedfile ./Beagle.Phased.Group2.1k.ped -outfile GL_OUT -bin_out -bits 20 -err_hom 0 -err_het 0 -min_m 3 -homoz  -w_extend -h_extend -ErrorFinder25.0 -ped-file ./Beagle.Phased.Group2.1k.ped  -bmatch GL_OUT.bmatch -bsid GL_OUT.bsid -bmid GL_OUT.bmid  -reduced 64  3 -window 50 -gap 100 -output.type finalOutput -count.gap.errors TRUE  -emp-pie-threshold 0.015 -low_ram  -ma-threshold 0.2  -log.file logs |gzip > FISHR_OUT.gz
+./GL-Fishr -germline -mapfile ./Beagle.Phased.Group2.1k.map -pedfile ./Beagle.Phased.Group2.1k.ped -outfile GL_OUT -bin_out -bits 20 -err_hom 0 -err_het 0 -min_m 3 -homoz  -w_extend -h_extend -fishr -ped-file ./Beagle.Phased.Group2.1k.ped  -bmatch GL_OUT.bmatch -bsid GL_OUT.bsid -bmid GL_OUT.bmid  -reduced 64  3 -window 50 -gap 100 -output.type finalOutput -count.gap.errors TRUE  -emp-pie-threshold 0.015 -low_ram  -ma-threshold 0.2  -log.file logs |gzip > FISHR_OUT.gz
 
 
